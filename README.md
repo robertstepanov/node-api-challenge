@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+      Server-side routing and Middleware
+
 - [ ] Describe Middleware?
+
+      Adds extra funcionality to Express like authentication and logging.
 
 - [ ] Describe a Resource?
 
+      Helmet is a resource that can help secure api requests by adding a layer of security by hiding things that we don't want people to see or access.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+      http error and success codes
+
 - [ ] How can we partition our application into sub-applications?
+
+      By using routing.
 
 ## Minimum Viable Product
 
