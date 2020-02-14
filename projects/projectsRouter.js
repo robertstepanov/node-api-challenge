@@ -37,7 +37,7 @@ router.post("/", (req, res) => {
   const project = { ...req.body };
 
   Projects.insert(project)
-    .then(user => {
+    .then(project => {
       res.status(201).json(project);
     })
     .catch(err => {
